@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Анна Жарова](https://up.htmlacademy.ru/htmlcss/19/user/483953).
-* Наставник: Алексей Пятецкий.
+* Наставник: [Алексей Пятецкий](https://htmlacademy.ru/profile/apiatetskyi).
 
 ---
 
