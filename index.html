@@ -5,8 +5,108 @@
     <title>HTML Academy: Нёрдс</title>
   </head>
   <body>
-
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Базовый HTML и CSS</a>».</p>
-
+    <header class="main-header">
+      <a><img src="nerds-logo.jpg" width="100" height="25" alt="Логотип дизайн-студии «Нёрдс»"></a>
+      <nav class="main-nav">
+        <ul class="site-nav">
+          <li class="site-nav-current"><a>Студия</a></li>
+          <li><a href="clients.html">Клиенты</a></li>
+          <li><a href="nerds-catalog.html">Магазин</a></li>
+          <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+        <p class="cart">
+          <span>Корзина</span>
+        </p>
+      </nav>
+    </header>
+    <main>
+      <h1 class="visually-hidden">Дизайн-студия «Нёрдс»</h1>
+      <!-- Здесь будет слайдер -->
+      <section class="advantages">
+        <h2 class="visually-hidden">Преимущества</h2>
+        <ul>
+          <li>
+            <img src="illustration-1.jpg" width="50" height="25" alt="веб-сайты">
+            <h3>Веб-сайты</h3>
+            <p>Мир никогда не будет прежним после того, как увидит ваш сайт!</p>
+            <span class="button button-red">Заказать</span>
+          </li>
+          <li>
+            <img src="illustration-2.jpg" width="50" height="25" alt="приложения">
+            <h3>Приложения</h3>
+            <p>Покорите топ-10 приложений в AppStore и Google Play!</p>
+            <span class="button button-green">Заказать</span>
+          </li>
+          <li>
+            <img src="illustration-3.jpg" width="50" height="25" alt="презентации">
+            <h3>Презентации</h3>
+            <p>Вы даже не подозреваете, насколько вы изумительны!</p>
+            <span class="button button-yellow">Заказать</span>
+          </li>
+        </ul>
+      </section>
+      <section class="about-us">
+        <h3 class="visually-hidden">О нас</h3>
+        <b class="lead">Мы - маленькая, но гордая студия из Краснодара.</b>
+        <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
+        <span class="text">Выполняем заказы на разработку:</span>
+        <ul class="develop">
+          <li>Веб-сайтов любой сложности</li>
+          <li>Мобильных приложений для iOS и Android</li>
+          <li>Слайд-шоу и видео для корпоративных презентаций</li>
+        </ul>
+        <p><img src="nerds-illustration.jpg" alt="логотип «Нёрдс»"></p>
+        <span class="text">С 2004 года любим точность во всем:</span>
+        <ul class="percents">
+          <li><span class="percents-item">146%</span> <span class="percents-text">Уровень самоотдачи</span></li>
+          <li><span class="percents-item">100%</span> <span class="percents-text">Соблюдение сроков</span></li>
+          <li><span class="percents-item">50%</span> <span class="percents-text">Минимальная предоплата</span></li>
+        </ul>
+      </section>
+      <section class="partners">
+        <h3 class="visually-hidden">Партнеры</h3>
+        <ul>
+          <li><a href="https://htmlacademy.ru/intensive/htmlcss"><img src="logo-1.png" width="50" height="25" alt="htmlacademy"></a></li>
+          <li><a href="#"><img src="logo-2.png" width="50" height="25" alt="бородинский"></a></li>
+          <li><a href="#"><img src="logo-3.png" width="50" height="25" alt="пинк"></a></li>
+          <li><a href="#"><img src="logo-4.png" width="50" height="25" alt="мишка"></a></li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <p>
+        <img class="map" src="map.jpg" width="500" height="200" alt="карта проезда">
+        <img class="map-marker" src="map-marker.png" width="100" height="100" alt="маркер">
+      </p>
+      <section class="social-media">
+        <h3 class="visually-hidden">Социальные сети</h3>
+        <p class="social-text">
+          <b>Давайте дружить, это выгодно!</b>
+          <span>Скидка 10% для друзей из социальных сетей</span>
+        </p>
+        <ul>
+          <li class="icon"><a href="#"><img src="vk-icon.png" width="15" height="15" alt="Вконтакте"></a></li>
+          <li class="icon"><a href="#"><img src="fb-icon.png" width="15" height="15" alt="Facebook"></a></li>
+          <li class="icon"><a href="#"><img src="insta-icon.png" width="15" height="15" alt="Instagram"></a></li>
+        </ul>
+      </section>
+      <section class="wrire-us">
+        <h3>Nёrds design studio</h3>
+        <p class="write-us-text">
+          191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>
+          Телефон: +7 (812) 275-75-75<br>
+          <a class="button button-write-us" href="#">Напишите нам</a>
+        </p>
+      </section>
+    </footer>
+    <section class="modal modal-write-us">
+      <h2>Напишите нам</h2>
+      <p>Ваше имя:</p>
+      <p>Ваш e-mail:</p>
+      <p>Текст письма:</p>
+      <!--Здесь будет форма входа-->
+      <a class="button button-send" href="#">Отправить</a>
+      <span class="modal-close">X</span>
+    </section>
   </body>
 </html>
