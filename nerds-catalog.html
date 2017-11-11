@@ -21,7 +21,23 @@
       <h1>Магазин готовых шаблонов</h1>
       <section class="filter">
         <h2 class="visually-hidden">Фильтры</h2>
-        <!-- Здесь будет форма -->
+        <form action="https://echo.htmlacademy.ru" method="get">
+          <label for="price">Стоимость</label> от 0 <input type="range" id="price" min="0" max="15000" step="100"> до 15000 <br>
+
+          <label for="grid">Сетка</label>
+          <input type="radio" name="grid" id="grid" value="Адаптивная" checked>Адаптивная</input>
+          <input type="radio" name="grid" id="grid" value="Фиксированная">Фиксированная</input>
+          <input type="radio" name="grid" id="grid" value="Резиновая">Резиновая</input> <br>
+
+          <label for="features">Особенности</label>
+          <input type="checkbox" id="features" checked name="Слайдер">Слайдер</input>
+          <input type="checkbox" id="features" name="Блок преимуществ">Блок преимуществ</input>
+          <input type="checkbox" id="features" checked name="Новости">Новости</input>
+          <input type="checkbox" id="features" name="Галерея">Галерея</input>
+          <input type="checkbox" id="features" name="Корзина">Корзина</input> <br>
+        </form>
+
+        <button type="submit">Показать</button>
 
       </section>
       <section class="catalog">
@@ -30,7 +46,7 @@
           <li>
             <article class="product">
               <div>
-               <h3 class="product-name">Седона</h3>
+               <h3 class="product-name"><a href="#">Седона</a></h3>
                <p class="product-text">Информарционный сайт для туристов</p>
                <a class="product-button" href="#">9900 руб.</a>
              </div>
@@ -40,7 +56,7 @@
           <li>
             <article class="product">
               <div>
-               <h3 class="product-name">Pink App</h3>
+               <h3 class="product-name"><a href="#"> Pink App</a></h3>
                <p class="product-text">Продуктовый лендинг приложения для iOS и Android</p>
                <a class="product-button" href="#">9900 руб.</a>
              </div>
@@ -50,7 +66,7 @@
           <li>
             <article class="product">
               <div>
-               <h3 class="product-name">Barbershop</h3>
+               <h3 class="product-name"><a href="#">Barbershop</a></h3>
                <p class="product-text">Сайт салоны красоты. Для мужчин, да.</p>
                <a class="product-button" href="#">9900 руб.</a>
              </div>
@@ -60,7 +76,7 @@
           <li>
             <article class="product">
               <div>
-               <h3 class="product-name">MISHKA</h3>
+               <h3 class="product-name"><a href="#">MISHKA</a></h3>
                <p class="product-text">Интернет-магазин вязаных игрушек</p>
                <a class="product-button" href="#">9900 руб.</a>
              </div>
@@ -70,7 +86,7 @@
           <li>
             <article class="product">
               <div>
-               <h3 class="product-name">A Plus</h3>
+               <h3 class="product-name"><a href="#">A Plus</a></h3>
                <p class="product-text">Лендинг курсов повышения квалификации</p>
                <a class="product-button" href="#">9900 руб.</a>
              </div>
@@ -80,7 +96,7 @@
           <li>
             <article class="product">
               <div>
-               <h3 class="product-name">КВАСТ</h3>
+               <h3 class="product-name"><a href="#">КВАСТ</a></h3>
                <p class="product-text">Промо-сайт производителя крафтового кваса</p>
                <a class="product-button" href="#">9900 руб.</a>
              </div>
@@ -99,7 +115,7 @@
     <footer>
       <section class="map">
         <h2 class="visually-hidden">Карта</h2>
-        <img src="img/map.png"  width="1725" height="808" alt="карта проезда">
+        <img src="img/map.png"  width="1725" height="808" alt="191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8">
         <section class="contacts">
           <h3>Nёrds design studio</h3>
           <address class="contacts-adress">
@@ -124,12 +140,16 @@
     </footer>
     <section class="modal modal-write-us">
       <h2>Напишите нам</h2>
-      <p>Ваше имя:</p>
-      <p>Ваш e-mail:</p>
-      <p>Текст письма:</p>
-      <!--Здесь будет форма входа-->
-      <a class="button-send" href="#">Отправить</a>
-      <span class="modal-close">X</span>
+      <form>
+        <label for="name">Ваше имя:</label><br>
+        <input id="name" name="name" type="text" required placeholder="Представьтесь, пожалуйста"><br>
+        <label for="mail">Ваш e-mail:</label><br>
+        <input id="mail" name="mail" type="text" required placeholder="Для отправки ответа"><br>
+        <label for="letter">Текст письма:</label><br>
+        <textarea id="letter" name="letter" rows="3" required placeholder="В свободной форме"></textarea>
+      </form>
+      <input type="submit" name="Отправить">
+      <button class="modal-close">Закрыть окно</button>
     </section>
   </body>
 </html>
