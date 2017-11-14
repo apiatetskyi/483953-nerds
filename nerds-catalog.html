@@ -34,11 +34,9 @@
           <input type="checkbox" id="features" name="Блок преимуществ">Блок преимуществ</input>
           <input type="checkbox" id="features" checked name="Новости">Новости</input>
           <input type="checkbox" id="features" name="Галерея">Галерея</input>
-          <input type="checkbox" id="features" name="Корзина">Корзина</input> <br>
+          <input type="checkbox" id="features" name="Корзина">Корзина</input>
+          <button type="submit">Показать</button>
         </form>
-
-        <button type="submit">Показать</button>
-
       </section>
       <section class="catalog">
         <h2 class="visually-hidden">Каталог</h2>
@@ -107,7 +105,7 @@
         <ul class="pagination">
           <li class="pagination-item pagination-item-current"><a>1</a></li>
           <li class="pagination-item"><a href="#">2</a></li>
-          <li class="pagination-item"><a href="#">3</a></li>          
+          <li class="pagination-item"><a href="#">3</a></li>
           <li class="pagination-item pagination-item-next"><a href="#">Следующая</a></li>
         </ul>
       </section>
@@ -119,9 +117,9 @@
         <section class="contacts">
           <h3>Nёrds design studio</h3>
           <address class="contacts-adress">
-          191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>
-          Телефон: <a href="+78122757575">+7 (812) 275-75-75</a><br>
-          <a class="contacts-button" href="#">Напишите нам</a>
+            191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>
+            Телефон: <a href="tel:+78122757575">+7 (812) 275-75-75</a><br>
+            <a class="contacts-button" href="#">Напишите нам</a>
           </address>
         </section>
       </section>
@@ -141,15 +139,15 @@
     <section class="modal modal-write-us">
       <h2>Напишите нам</h2>
       <form>
-        <label for="name">Ваше имя:</label><br>
-        <input id="name" name="name" type="text" required placeholder="Представьтесь, пожалуйста"><br>
-        <label for="mail">Ваш e-mail:</label><br>
-        <input id="mail" name="mail" type="text" required placeholder="Для отправки ответа"><br>
-        <label for="letter">Текст письма:</label><br>
+        <label for="name">Ваше имя:</label>
+        <input id="name" name="name" type="text" required placeholder="Представьтесь, пожалуйста">
+        <label for="mail">Ваш e-mail:</label>
+        <input id="mail" name="mail" type="email" required placeholder="Для отправки ответа">
+        <label for="letter">Текст письма:</label>
         <textarea id="letter" name="letter" rows="3" required placeholder="В свободной форме"></textarea>
+        <button type="submit">Отправить</button>
+        <button type="button" class="modal-close">Закрыть окно</button>
       </form>
-      <input type="submit" name="Отправить">
-      <button class="modal-close">Закрыть окно</button>
     </section>
   </body>
 </html>
