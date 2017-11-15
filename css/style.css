@@ -14,8 +14,12 @@ a {
 
 .main-nav {
   font-size: 16px;
-  line-height: 20px;
+  line-height: 30px;
   color: #000000;
+  width: 76px;
+  height: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
 }
 
 .site-nav,
@@ -30,11 +34,132 @@ a {
 
 .site-nav a:hover,
 .site-nav a:focus,
-.cart a:hover,
-.cart a:focus {
-  background-color: #ff0000;
+.cart:hover,
+.cart:focus {
+  color: #fb565a;
 }
 
 .slider-list {
 	list-style: none;
 }
+
+/* 
+
+Style for Навигация - нажатие
+width: 61px;
+height: 15px;
+opacity: 0.3;
+color: #000000;
+font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+line-height: 30px;
+text-transform: uppercase;
+
+Style for "btn" узнать больше - покой
+width: 240px;
+height: 50px;
+background-color: #fb565a;
+
+Style for "УЗНАТЬ БОЛ" покой и наведение (текст)
+width: 132px;
+height: 13px;
+color: #ffffff;
+font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+line-height: 18px;
+
+для кнопки узнать больше - наведение
+width: 240px;
+height: 50px;
+background-color: #e74246;
+
+нажатие
+width: 240px;
+height: 50px;
+box-shadow: inset 0 3px 0 rgba(0, 1, 1, 0.1);
+background-color: #d7373b;
+
+
+нажатие - текст
+width: 132px;
+height: 13px;
+opacity: 0.3;
+color: #ffffff;
+font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+line-height: 18px;
+
+
+
+заказать - покой
+
+width: 160px;
+height: 50px;
+background-color: #fb565a;
+
+текст
+
+width: 82px;
+height: 13px;
+color: #ffffff;
+font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+line-height: 18px;
+
+заказать - наведение
+
+width: 160px;
+height: 50px;
+background-color: #e74246;
+
+текст
+
+width: 82px;
+height: 13px;
+color: #ffffff;
+font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+line-height: 18px;
+
+нажатие
+
+width: 160px;
+height: 50px;
+box-shadow: inset 0 3px 0 rgba(0, 1, 1, 0.1);
+background-color: #d7373b;
+
+текст 
+
+width: 82px;
+height: 13px;
+opacity: 0.3;
+color: #ffffff;
+font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+line-height: 18px;
+
+
+цвета: #00ca74;#00bc6c;
+#efc84a;#eab534;
+
+Style for "logo-1.png" покой
+width: 199px;
+height: 68px;
+opacity: 0.2;
+
+наведение
+width: 199px;
+height: 68px;
+
+нажатие
+width: 199px;
+height: 68px;
+opacity: 0.1;
+
+*/
