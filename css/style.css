@@ -3,22 +3,28 @@ body {
   padding: 0;
 
   font-family: 'Roboto', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   color: #000000;
+
+
+  background-color: #ffffff;
 }
 
 a {
 	text-decoration: none;
 }
 
+.main-header,
+.slider {
+  background: #eeeeee;
+}
+
 .main-nav {
   font-size: 16px;
   line-height: 30px;
   color: #000000;
-  width: 76px;
-  height: 12px;
-  font-weight: 500;
+  font-weight: 400;
   text-transform: uppercase;
 }
 
@@ -43,6 +49,30 @@ a {
 	list-style: none;
 }
 
+.slider-lead {
+  font-size: 55px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 55px;
+}
+
+.button-more {
+  width: 240px;
+  height: 50px;
+  background-color: #fb565a;
+}
+
+.button-more a {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.slider-item-1 {
+  background-image: url("img/slide1.png");
+}
+
 /* 
 
 Style for Навигация - нажатие
@@ -55,6 +85,14 @@ font-size: 16px;
 font-weight: 500;
 line-height: 30px;
 text-transform: uppercase;
+
+
+Долго, дорого,  скрупулезно.: 
+font-size: 55px;
+color: #000000;
+letter-spacing: 0;
+line-height: 55px;
+
 
 Style for "btn" узнать больше - покой
 width: 240px;
