@@ -149,74 +149,68 @@ a {
 }
 
 
+.button-red:hover {
+  background-color: #e74246;
+}
+
+.button-green:hover {
+  background-color: #00bc6c;
+}
+
+.button-yellow:hover {
+  background-color: #eab534; 
+}
+
+.button-red:active {
+  background-color: #d7373b;
+}
+
+.button-green:active {
+  background-color: #00aa62;
+}
+
+.button-yellow:active {
+  background-color: #e5a722; 
+}
+
+
+.button-red:active a {
+  opacity: 0.3;
+}
+
+.button-green:active a {
+  opacity: 0.3;
+}
+
+.button-yellow:active a {
+  opacity: 0.3;
+}
+
 /* 
+тут надо вставить "о нас"
+*/
 
-заказать - покой
+.partners-list {
+  list-style: none;
+}
 
-width: 160px;
-height: 50px;
-background-color: #fb565a;
+.partners-list img {
+  opacity: 0.2;
+}
 
-текст
+.partners-list img:hover {
+  opacity: 1;
+}
 
-width: 82px;
-height: 13px;
-color: #ffffff;
-font-family: Roboto;
-font-size: 16px;
-font-weight: 500;
-line-height: 18px;
-
-заказать - наведение
-
-width: 160px;
-height: 50px;
-background-color: #e74246;
-
-текст
-
-width: 82px;
-height: 13px;
-color: #ffffff;
-font-family: Roboto;
-font-size: 16px;
-font-weight: 500;
-line-height: 18px;
-
-нажатие
-
-width: 160px;
-height: 50px;
-box-shadow: inset 0 3px 0 rgba(0, 1, 1, 0.1);
-background-color: #d7373b;
-
-текст 
-
-width: 82px;
-height: 13px;
-opacity: 0.3;
-color: #ffffff;
-font-family: Roboto;
-font-size: 16px;
-font-weight: 500;
-line-height: 18px;
+.partners-list img:active {
+  opacity: 0.1;
+}
 
 
-цвета: #00ca74;#00bc6c;
-#efc84a;#eab534;
 
-Style for "logo-1.png" покой
-width: 199px;
-height: 68px;
-opacity: 0.2;
-
-наведение
-width: 199px;
-height: 68px;
-
-нажатие
-width: 199px;
-height: 68px;
-opacity: 0.1;
+/* svg:hover {
+background: #D7373B;
+box-shadow: inset 0 3px 0 0 rgba(0,1,1,0.10);
+}
 
 */
